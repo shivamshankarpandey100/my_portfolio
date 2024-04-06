@@ -13,7 +13,7 @@ const Intro = () => {
       <img 
         src={cloud} 
         alt="" 
-        className='cloud-soft' 
+        className='cloud' 
       />
       <img 
           src={cloudSoft} 

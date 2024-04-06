@@ -2,7 +2,7 @@ import React from 'react';
 import './style.scss';
 import cloud from '../../images/cloud.png';
 import cloudSoft from '../../images/cloud-soft.png';
-
+import Navigation from './navigation-bar';
 const Intro = () => {
   return (
     <div className="Intro-section">
@@ -20,7 +20,9 @@ const Intro = () => {
           alt="" 
           className='cloud-soft' 
       />
-      <div className="content"></div>
+      <div className="content">
+        <Navigation/>
+      </div>
     </div>
   )
 }

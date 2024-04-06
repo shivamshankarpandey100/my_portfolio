@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './style.scss';
 
 const Intro = () => {
   return (
-    <div>
-        <p>Intro</p>
+    <div className="Intro-section">
+
     </div>
   )
 }

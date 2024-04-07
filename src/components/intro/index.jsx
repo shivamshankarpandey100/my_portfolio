@@ -3,6 +3,7 @@ import './style.scss';
 import cloud from '../../images/cloud.png';
 import cloudSoft from '../../images/cloud-soft.png';
 import Navigation from './navigation-bar';
+import IntroContent from './intro-content'
 const Intro = () => {
   return (
     <div className="Intro-section">
@@ -22,6 +23,7 @@ const Intro = () => {
       />
       <div className="content">
         <Navigation/>
+        <IntroContent/>
       </div>
     </div>
   )

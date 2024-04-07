@@ -4,7 +4,7 @@ import { BsAwardFill } from 'react-icons/bs';
 import {FaUser} from 'react-icons/fa';
 import hand from "../../../images/hand.png";
 import CallToAction from '../../shared/CallToAction';
-import boy from '../../../images/my.png';
+import boy from '../../../images/Untitled__1_-removebg-preview.png';
 
 const IntroContent = () => {
   return (
@@ -19,7 +19,7 @@ const IntroContent = () => {
                     </span>
                     <span className="text">, I Am</span>
                 </span>
-                <span className="big-text">Shivam Pandey</span>
+                <span className="big-text">Shivam S. Pandey</span>
             </h1>
             <p>
             I am a 💻 Computer 👨🏻‍💻 Science Student . My Interested in: 💻 Computer Science, 🧠 Competitive Programming & 🐍 Web Development and AI&ML

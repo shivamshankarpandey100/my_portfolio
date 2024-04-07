@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.scss'
 import logo from '../../../images/s-letter-logo-png-862.png';
+import CallToAction from '../../shared/CallToAction';
 const Navigation = () => {
   return <div 
   className="top-navigation-bar">
@@ -11,6 +12,7 @@ const Navigation = () => {
     <span className="navigation-item">Skills</span>
     <span className="navigation-item">Portfolio</span>
     <span className="navigation-item">Blogs & Articles</span>
+    <CallToAction text="contact me"/>
 </div>
   </div>
 }

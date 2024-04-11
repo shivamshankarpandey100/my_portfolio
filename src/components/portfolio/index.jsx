@@ -76,7 +76,25 @@ const Portfolio = () => {
 
     const filterProjects =(tag) =>{
 
-    }
+        setTransition("zoomout");
+
+
+        setTimeout(() => {
+            if(tag !== "all"){
+                const filteredProjects = projectsData.filter((f)=>f.tags.includes(tag))
+                setProjects(filteredProjects);
+            }
+            else{
+                setProjects(projectsData);
+            }
+
+            setTransition("zoomin");
+
+        }, 200);
+        setTimeout(() => {
+            setTransition(false);
+        }, 600);
+    };
 
   return (
     <Section id="portfolio" title="Check My Portfolio" background="light">

@@ -5,6 +5,7 @@ import {FaUser} from 'react-icons/fa';
 import hand from "../../../images/hand.png";
 import CallToAction from '../../shared/CallToAction';
 import boy from '../../../images/Untitled__1_-removebg-preview.png';
+import {scrollToSection} from '../../utils/helper';
 
 const IntroContent = () => {
   return (
@@ -24,7 +25,7 @@ const IntroContent = () => {
             <p>
             I am a 💻 Computer 👨🏻‍💻 Science Student . My Interested in: 💻 Computer Science, 🧠 Competitive Programming & 🐍 Web Development and AI&ML
             </p>
-            <CallToAction text="Contact Me"/>
+            <CallToAction text="Contact Me" action={()=>scrollToSection("contact")}/>
           </div>  
           <div className="right-col">
             <img src={boy} alt="userimage" />

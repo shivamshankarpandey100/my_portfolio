@@ -104,7 +104,7 @@ const {register, handleSubmit, formState:{errors}}=useForm();
                         <p className="error">{errors.subject?.message}</p>
                     )}
             </div>
-            <div className="input-field">
+            <div className="input-field full-width">
                 <textarea className='textarea' name="message" id="" placeholder='Your Message'
                 {...register("message", {
                     required: "Message is required",
@@ -126,7 +126,7 @@ const {register, handleSubmit, formState:{errors}}=useForm();
             
         </form>
     </div>
-  )
-}
+  );
+};
 
-export default Form
+export default Form;

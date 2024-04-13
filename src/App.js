@@ -12,8 +12,8 @@ const App = () => {
   return (
     <div>
         <Intro/>
-        {/* <Skills/>
-        <Portfolio/>
+        <Skills/>
+        {/* <Portfolio/>
         <Blogs/>
         <Contact/>
         <Footer /> */}

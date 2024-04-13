@@ -23,7 +23,7 @@ const Intro = () => {
       />
       <div className="content">
         <Navigation/>
-        <IntroContent/>
+        <IntroContent />
       </div>
     </div>
   )

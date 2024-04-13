@@ -1,16 +1,25 @@
 @import "../../../style-config/mixins.scss" , "../../../style-config/variable.scss";
 .query-form{
-    width: calc(100% - 375px);
-    margin-left: 20px;
-    
+    width: 100%;
+    @include small-screen{
+        width: calc(100% - 375px);
+        margin-left: 20px;
+    }
     form{
         display: flex;
         flex-flow: row wrap;
-        margin-top:-10px;
+        margin-top:25px;
+        @include small-screen{
+            margin-top:-10px;
+        }
     }
     .input-field{
-        width:calc(50% - 20px);
-        margin: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        @include small-screen {
+            width: calc(50% - 20px);
+            margin: 10px;
+        }
         &.full-width{
             width: 100%;
         }
@@ -50,7 +59,7 @@
         }
     }
     
-    button{
+    button {
         outline: 0;
         border: 0;
         width: 90px;
@@ -58,8 +67,12 @@
         background: $white;
         border-radius: 6px;
         @include typography(18px, 400, 24px);
-        margin-left: 10px;
+        margin-top: 10px;
         cursor: pointer;
+        color: $black;
+        @include small-screen {
+            margin-left: 10px;
+        }
     }
 
 }

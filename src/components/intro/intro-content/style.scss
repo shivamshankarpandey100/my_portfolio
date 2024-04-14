@@ -19,6 +19,7 @@
             width: 100%;
             @include small-screen {
                 width: 45%;
+                margin-top: -55px;
             }
             @include medium-screen {
                 padding-top: 55px;

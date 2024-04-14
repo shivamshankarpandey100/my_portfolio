@@ -6,7 +6,7 @@ import Portfolio from './components/portfolio';
 import Blogs from './components/blogs';
 import Contact from './components/contact';
 import Footer from './components/footer';
-import './App.scss';
+import './app.scss';
 
 const App = () => {
   return (
